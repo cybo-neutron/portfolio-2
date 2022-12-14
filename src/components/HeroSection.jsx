@@ -20,10 +20,10 @@ function HeroSection() {
 
         <div className="text-center md:text-start md:w-7/12">
           A <span className="font-bold text-xl">Full Stack Developer 🚀</span>{" "}
-          with a keen interest in developing visually attractive and functially
-          accurate web application using{" "}
-          <span className="font-bold text-xl">React ⚛️</span> and{" "}
-          <span className="font-bold text-xl">Node.js</span>{" "}
+          with a keen interest in developing visually attractive and perfomant
+          web application using{" "}
+          <span className="font-bold text-lg">React ⚛️</span> and{" "}
+          <span className="font-bold text-lg">Node.js.</span>
         </div>
 
         <div className="flex gap-x-3 h-9 text-xl mt-4">

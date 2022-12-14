@@ -10,7 +10,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="flex justify-center bg-zinc-300 pb-64 flex-col items-center"
+      className="flex justify-center bg-zinc-300 pb-32 flex-col items-center"
     >
       <h1 className="text-2xl font-bold pt-10">Contact Me</h1>
       <div>

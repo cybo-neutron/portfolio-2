@@ -11,13 +11,15 @@ function ExperienceCard(props) {
       <div className="flex gap-x-2">
         <h3>{props.team}</h3>
       </div>
-
+      {/* Description  */}
       <div className="">
         {props.work.map((elem, index) => (
           <p key={index}>👾 {elem}</p>
         ))}
       </div>
-      <div className="flex gap-x-3 text-sm">
+
+      {/* Tech Stack  */}
+      <div className="flex gap-x-3 text-sm mt-2">
         {props.tech_stack.map((elem, index) => {
           return (
             <p key={index} className="bg-zinc-300 px-1 rounded-sm">
