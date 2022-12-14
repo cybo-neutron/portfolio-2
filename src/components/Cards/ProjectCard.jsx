@@ -5,7 +5,7 @@ import { AiFillGithub, AiFillChrome, AiFillYoutube } from "react-icons/ai";
 
 function ProjectCard() {
   return (
-    <div className="bg-zinc-200 w-11/12 text-center group cursor-pointer hover:shadow-md rounded-md">
+    <div className="bg-zinc-100 w-11/12 text-center group cursor-pointer hover:shadow-2xl rounded-md">
       <img
         src={image}
         alt=""

@@ -3,8 +3,9 @@ import { skills } from "../data/skills";
 
 function Skills() {
   return (
-    <div className="bg-gray-200 flex flex-col py-4" id="about">
-      <div className="font-bold self-center text-2xl mb-3">Skills</div>
+    <div className="bg-gray-300 flex flex-col py-10" id="about">
+      <div className="font-bold self-center text-3xl mb-1">Skills</div>
+      <hr className="mb-3  self-center bg-black  w-16 border-b-black border-black border-2" />
       <div className="flex flex-wrap justify-center w-8/12 self-center gap-y-2 gap-x-1">
         {skills.map((elem) => {
           return (

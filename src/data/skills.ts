@@ -21,7 +21,12 @@ export const skills = [
   },{
     name: "React.js",
     logo: "",
-  },{
+  },
+  {
+    name: "Next.js",
+    logo: "",
+  },
+  {
     name: "Python",
     logo: "",
   },{
@@ -44,6 +49,10 @@ export const skills = [
     name: "Sass",
     logo: "",
   },
- 
+
   
 ];
+
+export const skills_learning = [
+  "redis","react-native","rabbitmq","micro-services"
+]

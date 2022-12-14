@@ -16,13 +16,13 @@ function App() {
       <div className="flex-1">
         <HeroSection />
         <About />
+        <Experience />
         <Skills />
         <Projects />
-        <Experience />
         <Contact />
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

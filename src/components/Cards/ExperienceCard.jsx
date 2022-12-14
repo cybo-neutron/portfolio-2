@@ -1,21 +1,30 @@
 import React from "react";
 
-function ExperienceCard() {
+function ExperienceCard(props) {
   return (
     <div>
       <p className="text-[0.7em] text-zinc-700">
-        {"Aug 2021"} - {"Aug 2022"} (1 yr)
+        {props.from} - {props.to} ({props.duration})
       </p>
-      <h1 className="text-xl font-bold">Amazon</h1>
-      <h2 className="font-semibold">Software Development Engineer 1</h2>
+      <h1 className="text-xl font-bold">{props.company}</h1>
+      <h2 className="font-semibold">{props.designation}</h2>
       <div className="flex gap-x-2">
-        <h3>Kindle Devices</h3>|
+        <h3>{props.team}</h3>
       </div>
 
-      <div className="text-sm">
-        Worked on UI improvement and unit test coverage for 4 new feature
-        packages for Kindle E-reader with code coverage over 90%.(Jest for react
-        and GoogleTest for C++)
+      <div className="">
+        {props.work.map((elem, index) => (
+          <p key={index}>👾 {elem}</p>
+        ))}
+      </div>
+      <div className="flex gap-x-3 text-sm">
+        {props.tech_stack.map((elem, index) => {
+          return (
+            <p key={index} className="bg-zinc-300 px-1 rounded-sm">
+              {elem}
+            </p>
+          );
+        })}
       </div>
     </div>
   );
