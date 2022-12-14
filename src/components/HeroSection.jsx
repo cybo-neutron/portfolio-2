@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from "../assets/Profile1.png";
+import profileImg from "/Profile1.png";
 import { motion } from "framer-motion";
 
 import { AiFillGithub } from "react-icons/ai";

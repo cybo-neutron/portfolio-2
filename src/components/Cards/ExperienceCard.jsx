@@ -19,7 +19,7 @@ function ExperienceCard(props) {
       </div>
 
       {/* Tech Stack  */}
-      <div className="flex gap-x-3 text-sm mt-2">
+      <div className="flex gap-x-3 text-sm mt-2 flex-wrap">
         {props.tech_stack.map((elem, index) => {
           return (
             <p key={index} className="bg-zinc-300 px-1 rounded-sm">
