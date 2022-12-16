@@ -7,7 +7,7 @@ export const projectsData = [
         githubLink: "https://github.com/cybo-neutron/DNotebook-v2-frontend",
         githubLink2:"https://github.com/cybo-neutron/DNotebook-v2/tree/master",
         website: "https://d-notebook-v2.vercel.app/",
-        videoLink:""
+        videoLink:"https://drive.google.com/file/d/1qoMxWjEq4LCAb1Wwi73NVbumxGdza4bV/view?usp=share_link"
     },
     {
         image:"projects/dblog.png",
@@ -17,7 +17,7 @@ export const projectsData = [
         githubLink: "https://github.com/cybo-neutron/blogs-frontend",
         githubLink2:"https://github.com/cybo-neutron/blogs-backend",
         website: "https://blogs-frontend-six.vercel.app/",
-        videoLink:""
+        videoLink:"https://drive.google.com/file/d/1VNqBUMphpf4QZwvxyYcAmKLBy78WvEEj/view?usp=share_link"
     },
     {
         image:"projects/newsapp.png",
